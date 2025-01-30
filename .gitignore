@@ -12,3 +12,4 @@ spec/dummy/log/test.log
 .rbx/
 spec/dummy/tmp/
 spec/dummy/db/development.sqlite3
+.codesight/*

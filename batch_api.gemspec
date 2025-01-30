@@ -19,10 +19,10 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency("middleware")
 
-  s.add_development_dependency("rails", "~> 3.2")
+  s.add_development_dependency("rails", "~> 7.2")
   s.add_development_dependency("sinatra")
   s.add_development_dependency("rspec")
   s.add_development_dependency("rspec-rails")
-  s.add_development_dependency("sqlite3")
-  s.add_development_dependency("rack-contrib")
+  s.add_development_dependency("sqlite3", "~> 2.5")
+  s.add_development_dependency("rack-contrib", "~> 2.5.0")
 end
